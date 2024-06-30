@@ -89,7 +89,7 @@ public class Result
         Error = default;
     }
 
-    protected Result(Error? error)
+    protected Result(Error error)
     {
         IsSuccess = false;
         Error = error;
