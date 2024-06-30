@@ -20,7 +20,7 @@ public class Result
     /// Initializes a new instance of the <see cref="Result"/> class representing a failed result with an error.
     /// </summary>
     /// <param name="error">The error associated with the failed result.</param>
-    protected Result(Error? error)
+    protected Result(Error error)
     {
         IsSuccess = false;
         Error = error;
